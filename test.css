@@ -1,0 +1,76 @@
+
+        .toolbar{
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 90vw;
+            height: 100px;
+            margin: 0 auto;
+        }
+        .tool-img{
+            height: 40px;
+            width: 40px;
+        }
+        .tool{
+            
+        }
+
+
+        .color-container{
+            display: flex;
+            width: 180px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            align-items: center;
+            justify-content: space-evenly;  
+        }
+        .color{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+        .red{
+            background-color: lightcoral;
+        }
+        .blue{
+            background-color: lightblue;
+        }
+        .green{
+            background-color: lightgreen;
+        }
+
+
+        .size-box{
+            border: 1px solid gray;
+            height: 50px;
+            width: 150px;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 5px;
+            /* display: flex; */
+            display:  none;
+        }
+        .size{
+            border-radius: 50%;
+        }
+        .size1{
+            height: 15px;
+            width: 15px;
+            background-color: aqua;
+        }
+        .size2{
+            height: 23px;
+            width: 23px;
+            background-color: aqua;
+        }
+        .size3{
+            height: 28px;
+            width: 28px;
+            background-color: aqua;
+        }
+        .size4{
+            height: 33px;
+            width: 33px;
+            background-color: aqua;
+        }
